@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Persona</title>
+    </head>
+    <body>
+        <h1>Configuración del juego de bingo</h1>
+
+        <form method="post" action="/formularioPost">
+
+            <label>Tamaño de la tarjeta (NxN):</label>
+            <br>
+            <input type="text" name="tamanhoTarjeta" />
+            <br>
+            <br>
+            <label>Número de tarjetas:</label>
+            <br>
+            <input type="text" name="numeroTarjetas" />
+            <br>
+            <br>
+            <input type="submit" value="Generar tarjetas" />
+        </form>
+
+    </body>
+</html>
